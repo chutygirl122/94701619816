@@ -22,7 +22,7 @@ const fsm = require('fs'); if (fsm.existsSync('config.env')) require('dotenv').c
 */
 
 SESSION_ID: process.env.SESSION_ID || "MONEY-HEIST-MD-Xd1QRDQC#CbXEeZRwwlcnKD8yyBZJvzOVwzZExPQrpJoiWcO6K3E-DILALK", 
-MONGODB: process.env.MONGODB || "mongodb+srv://neboja8917:<db_password>@cluster0.xey0hkz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+MONGODB: process.env.MONGODB || "mongodb+srv://neboja8917:<db@cluster0.xey0hkz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 
 
 
